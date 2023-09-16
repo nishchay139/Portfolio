@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nishchay-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body {
+            background-color: rgb(5, 5, 46);
+            color: white;
+            font-family:cursive;
+        }
+
+        nav {
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 59px;
+            background-color: rgb(19, 19, 91);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(121, 121, 229);
+            font-size: 1.03rem;
+
+        }
+
+        .left {
+            font-size: 2.2rem;
+            font-style:normal;
+            font-weight: 100;
+            color:whitesmoke;
+            background-color: rgb(19, 19, 91);
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 90px 10px;
+        }
+
+        .firstsectiondiv{
+            width: 10%;
+        }
+
+        .leftsection {
+            font-size: 3.5rem;
+        }
+        .leftsection .buttons{
+            padding: 50px 0;
+            
+        }
+        .leftsection .btn{
+            padding: 12px;
+            color: white;
+            background: rgb(143, 43, 202);
+            border: 2px solid white;
+            border-radius: 50px;
+            font-size: 20px;
+            cursor: pointer;
+            
+        }
+        .rightsection img {
+            width: 100%;
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: rgb(200, 148, 248);
+        }
+
+        #element {
+            color: rgb(200, 148, 248);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 110vh;
+            /*used to increase the page size*/
+        }
+
+        main hr {
+            border: 50px;
+            background: rgb(200, 148, 248);
+            height: 2.5px;
+            margin: 42px 14px;
+        }
+
+        .secondsection h1 {
+            font-size: 10rem;
+        }
+
+        .text-grey {
+            color: rgb(149, 146, 146);
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 80vw;
+            height: 1px;
+            margin: 90px 0px;
+            display: flex;
+            align-content: baseline;
+        }
+
+        .secondsection .vertical {
+            height: 20px;
+            width: 5px;
+            background-color: white;
+            margin: 0px 15px;
+            /*used to increase the page width*/
+        }
+
+        .image-top {
+            width: 59px;
+            position: relative;
+            top: -70px;
+            left: -22px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 188px;
+            font-size: 10px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 150px;
+            color:gray;
+            width: 380px;
+            font-size: 16px;
+            margin: 50px 10px;
+        }
+        footer{
+            background-color: rgb(20, 18, 90);
+        }
+        .footer{
+            display: flex;
+            padding: 23px 122px; 
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer >div{
+            width: 223px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+        
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"><b>Nishchay's Portfolio</b></div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">User Manual</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Blog</a></li>
+                    <li><a href="/">Contact</a></li>
+                    </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi,My name is 
+                <span class="purple"><b>Nishchay</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Resume</button>
+                    <button class="btn">Github</button> 
+                </div>
+            </div>
+
+            <div class="rightsection">
+                <img src="dev.png" alt="developer">
+
+            </div>
+        </section>
+
+        <hr>
+        <section class="secondsection">
+            <span class="text-grey">
+                <h4>What have I done so far</h4>
+            </span>
+            <h2>Education RoadMap...</h2>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="books.png" alt="books">
+                    <div class="vertical-title"></div>
+                    <b>1st to 10th (2009-19)</b>
+                </div>
+
+                <div class="vertical-desc">
+                    Passed out my 10th grade in Raichur city of Karnataka - INDIA
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="inter.png" alt="inter">
+
+                    <div class="vertical-title"></div>
+                    <b>11th and 12th(2020-22)</b>
+                </div>
+
+                <div class="vertical-desc">
+                    Passed out my 12th grade in Banglore city of Karnataka - INDIA
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="manipal.png" alt="manipal">
+
+                    <div class="vertical-title"></div>
+                    <b>Bachelors in Technology(2022-26)</b>
+                </div>
+
+                <div class="vertical-desc">
+                    Joined Manipal Institute of Technology one of the best college in the India located in Udupi
+                    District of Karnataka- India
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="mist png.png" alt="mist">
+                    <div class="vertical-title"></div>
+                    <b>Working Committee</b>
+                </div>
+                <div class="vertical-desc">
+                    Joined Offcial Cybersecurity Club (Manipal Information Security Team).
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="linux.png" alt="linux">
+                    <div class="vertical-title"></div>
+                    <b>Skills</b>
+                </div>
+                <div class="vertical-desc">
+                    Started Boosting my Skills in Web-Development and Linux.
+                </div>
+        </section>
+
+    </main>
+    <footer>
+            <div class="footer">
+                <div class="footer-first"></div>
+                    <h3>Nishchay's Catalog</h3>
+                <div class="footer-second"></div>
+                <ul>
+                    <h3>Get In Touch</h3>
+                    <br>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Blogspot</li>
+                    <li>User Manual</li>
+                </ul>
+
+                <div class="footer-third"></div>
+                <ul>
+                    <h3>More from Nishchay</h3>
+                    <br>
+                    <li>Policy</li>
+                    <li>Website Catalog</li>
+                    <li>Originals</li>
+                    <li>Collaborate</li>
+                    <li>Guide</li>
+                </ul>
+
+            <div class="footer-rights">
+                nishchayportfolio.com 
+                <br>
+                &#169; Nishchay
+                <br>
+                All rights reserved
+                </div>
+
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['VideoEditor', 'WebDeveloper', 'Programmer', 'ChessPlayer.'],
+            typeSpeed: 63,
+        });
+    </script>
+</body>
+
+</html>
